@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Zeno Chatbot',
   description: 'AI-powered chatbot solution for WordPress',
+  base: '/zeno-docs/',
   themeConfig: {
     logo: '/logo.svg',
     nav: [
