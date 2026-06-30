@@ -99,6 +99,21 @@ export default defineConfig({
           ],
         },
         {
+          text: 'Pro Extras',
+          items: [
+            { text: 'Channels', link: '/settings/channels' },
+            { text: 'Web Search', link: '/settings/web-search' },
+            { text: 'Mailing List', link: '/settings/mailing-list' },
+            { text: 'Live Chat', link: '/settings/live-chat' },
+          ],
+        },
+        {
+          text: 'Developer',
+          items: [
+            { text: 'Hooks Reference', link: '/developer/hooks' },
+          ],
+        },
+        {
           text: '🆓 Free Version',
           items: [
             { text: 'View Free Documentation', link: '/free/getting-started' },
