@@ -2,34 +2,38 @@
 layout: home
 
 hero:
-  name: "Zeno Chatbot"
-  text: "AI-Powered WordPress Chatbot"
-  tagline: Build, manage, and deploy intelligent conversations right inside your WordPress site — zero coding required.
+  name: Zeno Chatbot
+  text: AI-Powered Chatbot for WordPress
+  tagline: Build, manage, and deploy intelligent conversations on your WordPress site — zero coding required.
   actions:
     - theme: brand
-      text: Get Started
+      text: ⭐ Pro Documentation
       link: /getting-started
     - theme: alt
-      text: View Settings
-      link: /settings/general
+      text: 🆓 Free Documentation
+      link: /free/getting-started
 
 features:
+  - icon: ⭐
+    title: Pro Version
+    details: Full feature set including Channels, Web Search, Mailing List, and Live Chat — in addition to all core features.
+    link: /getting-started
+    linkText: Read Pro Docs
+  - icon: 🆓
+    title: Free Version
+    details: Core chatbot engine with Dashboard, all Settings panels, and Data Source — everything you need to get started.
+    link: /free/getting-started
+    linkText: Read Free Docs
   - icon: 🤖
     title: Multiple AI Providers
-    details: Connect OpenAI, Google Gemini, or Anthropic Claude — pick the model that best fits your needs and budget.
-  - icon: 📚
-    title: Custom Knowledge Base
-    details: Train the chatbot using your own website content, sitemaps, uploaded files, and custom notes.
-  - icon: 🎨
-    title: Fully Customizable Widget
-    details: Match the chat widget to your brand with custom colors, avatars, greeting messages, and more.
-  - icon: 💬
-    title: Saved Replies
-    details: Predefine answers to common questions to save tokens, speed up responses, and ensure consistency.
+    details: Connect OpenAI GPT, Google Gemini, or Anthropic Claude. Switch providers anytime from your dashboard.
   - icon: 📊
     title: Real-Time Analytics
-    details: Track conversations, response times, and token usage from a centralized dashboard.
-  - icon: ⚡
-    title: Semantic Matching
-    details: AI-powered reply matching catches questions worded differently — one reply handles many variations.
+    details: Track conversations, token usage, response times, and saved reply performance — all in one dashboard.
+  - icon: 🗂️
+    title: Smart Data Sources
+    details: Train your chatbot using your WordPress content, sitemaps, WooCommerce products, external URLs, and uploaded PDFs.
+  - icon: 💬
+    title: Saved Replies
+    details: Define instant answers for common questions with AI-powered semantic matching to catch every variation.
 ---
