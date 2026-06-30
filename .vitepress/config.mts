@@ -4,6 +4,11 @@ export default defineConfig({
   title: 'Zeno Chatbot',
   description: 'AI-powered chatbot solution for WordPress',
   base: '/zeno-docs/',
+  head: [
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Figtree:wght@400;500;600&display=swap' }],
+  ],
   themeConfig: {
     logo: '/logo.svg',
     nav: [
