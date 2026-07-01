@@ -103,20 +103,8 @@ If WooCommerce is not installed and active on your site, you'll see the notice *
 
 ## Automatic Update Index
 
-![Auto update toggle](/images/free/page67_2.png)
-
-The **Automatic Update Index** option keeps your knowledge base fresh without any manual work.
-
-Use this toggle to automatically update the content index whenever posts are modified. When enabled, any edits you make to your posts or pages will be reflected in the chatbot's knowledge base without you needing to rebuild the index by hand.
-
-### Auto Update Schedule
-
-![Auto update schedule dropdown](/images/free/page68_1.png)
-
-The **Auto Update Schedule** setting works alongside Automatic Update Index.
-
-![Schedule options](/images/free/page68_2.png)
-
-Use this dropdown to set how frequently the content index should be automatically updated. The default option is **Every 15 minutes**. Choose a shorter interval for fast-changing sites or a longer interval to reduce server load.
+::: info
+Coming soon.
+:::
 
 That's a complete walkthrough of the Internal Content tab. Once your index is built, your chatbot will start answering questions using your own site's content.
