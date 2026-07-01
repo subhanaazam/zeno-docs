@@ -29,6 +29,7 @@ export default defineConfig({
           { text: 'Settings', link: '/free/settings/general' },
         ],
       },
+      { text: 'Changelog', link: '/changelog' },
     ],
 
     sidebar: {
@@ -65,6 +66,12 @@ export default defineConfig({
           text: '⭐ Upgrade to Pro',
           items: [
             { text: 'View Pro Documentation', link: '/getting-started' },
+          ],
+        },
+        {
+          text: 'More',
+          items: [
+            { text: 'Changelog', link: '/changelog' },
           ],
         },
       ],
@@ -117,6 +124,12 @@ export default defineConfig({
           text: '🆓 Free Version',
           items: [
             { text: 'View Free Documentation', link: '/free/getting-started' },
+          ],
+        },
+        {
+          text: 'More',
+          items: [
+            { text: 'Changelog', link: '/changelog' },
           ],
         },
       ],
